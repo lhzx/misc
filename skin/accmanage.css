@@ -1,0 +1,89 @@
+/*顶部banner*/
+
+.accBanner {
+    width: 100%;
+}
+
+
+/*左title 右 value 的form 样式*/
+
+.basic-form {
+    margin-top: 40px;
+}
+
+.form-view {
+    color: #7a7a7a;
+}
+
+.form-view .control-label:first-child {
+    text-align: right;
+}
+
+.form-view .control-label:last-child {
+    text-align: left;
+    padding-left: 0;
+}
+
+.form-group.form-view {
+    overflow: hidden;
+}
+
+.money-form .form-group {
+    margin-left: 60px;
+}
+
+
+/*提现样式Start*/
+.cashout-form{
+    min-height: 240px;
+}
+.cashout-form .btn {
+    margin-left: 25%;
+}
+
+.bank_logo {
+    width: 20px;
+    height: 20px;
+    background: url(../images/bank_logo/cmb.png) no-repeat;
+    display: inline-block;
+    background-size: cover;
+}
+
+.cashout-form .help-block {
+    font-size: 10px;
+}
+
+
+/*提现样式End*/
+
+
+/*交易记录样式 Start */
+
+.input-group .first-input,
+.input-group .last-input {
+    width: 42%;
+}
+
+.input-group .link-symbol {
+    float: left;
+    padding: 5px 5px;
+}
+
+
+/*交易记录样式 End*/
+
+
+/*主从关系样式 Start */
+
+.hypotaxis-search-form {
+    padding-left: 0;
+}
+
+.hypotaxis-search-form .form-control {
+    width: 40%;
+    margin-right: 15px;
+    float: left;
+}
+
+
+/*交易记录样式 End*/

@@ -1,0 +1,33 @@
+
+.add-company-user .input-group-addon {
+    min-width: 110px;
+    text-align: justify;
+    text-align-last: justify;
+}
+.add-company-user .date-picker{
+	width: 400px;
+}
+
+.add-company-user .input-group{
+	width: 100%;
+}
+
+.add-company-user .input-group-addon{
+	float: left;
+	height: 34px;
+	line-height: 20px;
+	position: absolute;
+}
+.add-company-user .input-group-content{
+	float: left;
+	width: 100%;
+	padding-left: 110px;
+}
+.add-company-user .input-group-content .form-control{
+	border-radius: 0 4px 4px 0;
+}
+/*创建公司样式End*/
+
+
+
+

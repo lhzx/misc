@@ -1,0 +1,10 @@
+
+.edit-form .form-actions {
+    text-align: center;
+}
+
+.input-group-addon {
+    min-width: 110px;
+    text-align: justify;
+    text-align-last: justify;
+}

@@ -1,0 +1,86 @@
+/**
+ * Author:DuYutao
+ * Date:2016-3-16
+ * Description:公司端公司管理样式
+ */
+
+
+/*工资模板设置样式*/
+
+.searchForm .radius-label {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    width: 110px;
+    height: 34px;
+    padding: 6px 12px;
+    text-align: justify;
+    text-align-last: justify;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    background-color: #fff;
+    float: left;
+}
+
+.searchForm .radius-select {
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    display: block;
+    width: 300px;
+    height: 34px;
+    margin: 0 10px 0 0;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    text-align: justify;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: #555;
+    border: 1px solid #c2cad8;
+    border-radius: 0 4px 4px 0;
+    background-color: #fff;
+    background-image: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+
+.btn-form .btn {
+    width: 80px;
+    margin: 0 5px;
+}
+.add-form input{
+    width: 50%;
+    float: left;
+    /*margin-right: 10px;*/
+}
+.add-form>div{
+    margin:0;
+}
+.portlet-body {
+    overflow: hidden;   
+}
+.createform .fa {
+    position: absolute;
+    right: 0;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.createform .input-group-content {
+    padding-right: 15px;
+    padding-left: 150px;
+}
+.input-group-addon{
+    min-width: 150px;
+}
+.form-actions {
+    text-align: center;
+}
+.btn-form {
+    text-align: center;
+}

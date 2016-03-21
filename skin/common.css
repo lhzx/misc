@@ -1,0 +1,166 @@
+/*
+
+Common Css:全局通用样式;
+Version: 1.0
+By: HerrDu
+QQ：452661976
+License: MIT License
+
+*/
+
+
+/*查找的样式*/
+
+.search-form .search-item {
+    float: left;
+    margin: 5px 0;
+    padding: 0 5px 0 0;
+    height: 34px;
+}
+
+.search-form .search-item .btn {
+    width: 80px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.search-form .search-item .input-group-addon {
+    width: 80px;
+}
+
+.search-form .search-item .input-group-addon,
+.edit-form .input-group-addon {
+    background-color: #fff;
+}
+
+.date-picker .form-control:first-child {
+    border-radius: 0;
+}
+
+.date-picker .input-group-btn {
+    vertical-align: top;
+}
+
+/*向右浮动按钮样式*/
+.search-form .search-item .rbtn {
+    float: right;
+}
+
+
+/*居中查询按钮的样式*/
+
+.search-form .search-item.midbtn {
+    text-align: center;
+}
+
+.search-form .search-item.midbtn .btn {
+    float: none;
+    margin: 0 5px;
+}
+
+
+/*查找的样式End*/
+
+
+/*列表样式*/
+
+.dataTables_info {
+    line-height: 58px;
+}
+
+.table .btn {
+    font-size: 10px;
+    padding: 6px 10px 5px 10px;
+}
+
+
+/*通用样式*/
+
+.fl {
+    float: left;
+}
+
+.mt-20 {
+    margin-top: 40px;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.ml0 {
+    margin-left: 0;
+}
+
+.ml5 {
+    margin-left: 5px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.pl0 {
+    padding-left: 0;
+}
+
+.pr0 {
+    padding-right: 0;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.plr0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.h34 {
+    height: 34px;
+}
+
+.input-group-addon {
+    min-width: 110px;
+    text-align: justify;
+    text-align-last: justify;
+}
+
+
+/*创建公司样式Start*/
+
+.createform .input-group {
+    width: 100%;
+}
+
+.createform .input-group-addon {
+    float: left;
+    height: 34px;
+    line-height: 20px;
+    position: absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.createform .input-group-content {
+    float: left;
+    width: 100%;
+    padding-left: 110px;
+}
+
+.createform .input-group-content .form-control {
+    border-radius: 0 4px 4px 0;
+}
+
+
+/*创建公司样式End*/
+
+.row-form {
+    margin: 0 80px;
+}
